@@ -1,0 +1,6 @@
+body {background-color: #2d2521;}
+.cursor-pointer {cursor: pointer;}
+h1 {color: white;}
+#value {border-top-left-radius: 5px; border-bottom-left-radius: 5px;}
+#del:hover {color: #febc2f;}
+tbody td:hover {color: white; background-color: black;}
