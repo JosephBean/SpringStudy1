@@ -1,0 +1,12 @@
+* {margin: 0; padding: 0; box-sizing: border-box;}
+main {margin: 0 15vw; width: 70vw;}
+nav {display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 20px;}
+button {margin: 10px 0; padding: 20px; border: 0; background-color: #00bfff;}
+button:hover {cursor: pointer; background-color: #1b728f; color: #fff; font-weight: bold; box-shadow:5px 5px 10px 5px rgba(77, 71, 71, 0.2);}
+section {width: 100%; min-height: 100px; text-align: center; background-color: beige;}
+ul {list-style-type: none;}
+ul li {display: flex;}
+ul li > div {width: calc(100% / 5); height: 100px; display: inline-block;}
+.bg1 {background-color: #6495ed;}
+.bg2 {background-color: #f5e68b;}
+.bg3 {background-color: #dd4343 !important;}
