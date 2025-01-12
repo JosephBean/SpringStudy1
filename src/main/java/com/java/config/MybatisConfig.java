@@ -20,9 +20,9 @@ public class MybatisConfig {
 	public DataSource dataSource() {
 		DriverManagerDataSource dataSource = new DriverManagerDataSource();
 		dataSource.setDriverClassName("org.mariadb.jdbc.Driver");
-		dataSource.setUrl("jdbc:mariadb://prj1119.tplinkdns.com:8181/edu");
-		dataSource.setUsername("user1");
-		dataSource.setPassword("user1");
+		dataSource.setUrl("jdbc:mariadb://localhost:3306/edu");
+		dataSource.setUsername("root");
+		dataSource.setPassword("1234");
 		return dataSource;
 	}
 	
